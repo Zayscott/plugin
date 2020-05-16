@@ -10,7 +10,7 @@ echo '[
         "endpoint": "'${localip}'",
         "tags": "",
         "timestamp": '$(timestamp)',
-        "metric": "net.w.count",
+        "metric": ".w.count",
         "value": '${Activities}',
         "step": '${step}'
     }
